@@ -9,7 +9,7 @@ Given(/^I open the eBay URL$/, function () {
 });
 
 When(/^I search for Pilas$/, function () {
-    mainPage.completeSearchBox('Pilas')
+    mainPage.completeSearchBox('rodillos')
 });
 
 When(/^I click the search button$/, function () {
